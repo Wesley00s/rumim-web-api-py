@@ -23,18 +23,22 @@ Esta API foi desenvolvida para gerenciar informações de usuários, propriedade
     git clone https://github.com/Wesley00s/rumin-web-api-py.git
     cd rumin-web-api-py
     ```
+2. Criar diretório firebase
+   ```bash
+    mkdir firebase
+    ```
 
-2. Instale as dependências necessárias:
+3. Instale as dependências necessárias:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Configure o Firebase:
+4. Configure o Firebase:
    - Baixe a chave privada do Firebase seguindo as instruções na próxima seção.
-   - Coloque o arquivo da chave privada em `firebase/serviceAccountKey.json`.
+   - Coloque o arquivo da chave privada `serviceAccountKey.json` dentro do diretório `firebase`.
 
-4. Execute a API:
+5. Execute a API:
 
     ```bash
     python3 app.py
