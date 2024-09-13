@@ -56,7 +56,7 @@ Siga os passos abaixo para baixar a chave privada e configurar o Firebase no pro
 5. Vá para a aba "Contas de serviço".
 6. - ![Passo 2](readme/screen2.png)
 
-7. Clique no botão "Gerar nova chave privada".
+7. Clique no botão "Gerar nova chave privada", salve e renomeie para `serviceAccountKey.json`.
 8. - ![Passo 3](readme/screen3.png)
 
 9. Baixe o arquivo `.json` e salve-o na pasta `firebase` do seu projeto com o nome `serviceAccountKey.json`.
