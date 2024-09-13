@@ -23,7 +23,7 @@ Esta API foi desenvolvida para gerenciar informações de usuários, propriedade
     git clone https://github.com/Wesley00s/rumin-web-api-py.git
     cd rumin-web-api-py
     ```
-2. Criar diretório firebase
+2. Criar diretório firebase dentro do projeto:
    ```bash
     mkdir firebase
     ```
