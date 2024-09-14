@@ -23,18 +23,22 @@ Esta API foi desenvolvida para gerenciar informações de usuários, propriedade
     git clone https://github.com/Wesley00s/rumin-web-api-py.git
     cd rumin-web-api-py
     ```
+2. Criar diretório firebase dentro do projeto:
+   ```bash
+    mkdir firebase
+    ```
 
-2. Instale as dependências necessárias:
+3. Instale as dependências necessárias:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Configure o Firebase:
+4. Configure o Firebase:
    - Baixe a chave privada do Firebase seguindo as instruções na próxima seção.
-   - Coloque o arquivo da chave privada em `firebase/serviceAccountKey.json`.
+   - Coloque o arquivo da chave privada `serviceAccountKey.json` dentro do diretório `firebase`.
 
-4. Execute a API:
+5. Execute a API:
 
     ```bash
     python3 app.py
@@ -47,13 +51,13 @@ Siga os passos abaixo para baixar a chave privada e configurar o Firebase no pro
 1. Acesse o [Console Firebase](https://console.firebase.google.com/).
 2. Selecione seu projeto.
 3. No painel lateral, clique em "Configurações do projeto".
-4. - ![Passo 1](readme/screen1.png)
+   - ![Passo 1](readme/screen1.png)
 
 5. Vá para a aba "Contas de serviço".
-6. - ![Passo 2](readme/screen2.png)
+   - ![Passo 2](readme/screen2.png)
 
-7. Clique no botão "Gerar nova chave privada".
-8. - ![Passo 3](readme/screen3.png)
+7. Clique no botão "Gerar nova chave privada", salve e renomeie para `serviceAccountKey.json`.
+   - ![Passo 3](readme/screen3.png)
 
 9. Baixe o arquivo `.json` e salve-o na pasta `firebase` do seu projeto com o nome `serviceAccountKey.json`.
 
