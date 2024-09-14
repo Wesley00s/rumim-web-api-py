@@ -315,4 +315,4 @@ def get_total_animals_by_property(user_id: str, prop_id: str):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8080)
+    uvicorn.run(app, host="localhost", port=8080)
